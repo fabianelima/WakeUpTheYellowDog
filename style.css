@@ -14,8 +14,7 @@
 }
 
 #image {
-	left: 25%;
-	width: 50%;
+	width: 100%;
 	min-height: 450px;
 	display: inline-block;
 	position: absolute;

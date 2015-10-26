@@ -1,10 +1,7 @@
 /*--------------- Script --------------*/
 
 /*
-	Pronto, fiz uma animaçãozinha com 24 frames. Estava pensando em fazer
-	um 'for' pra não precisar ficar mundando o número no if sempre que
-	ascrescentar mais frames na animação. Acho que vai ser a próxima coisa
-	que vou implementar.
+	Com for dá no mesmo. Nem vou fazer.
 
 	Não posso me esquecer da parte de contar os cliques depois. Mas isso
 	vou fazer depois que terminar as ilustrações.
@@ -15,17 +12,21 @@ var image = ['anima1.gif','anima2.gif','anima3.gif','anima4.gif','anima5.gif','a
 
 function clique() {
 	i++;
+
 	if (i > 23) {
 		i = 0;
 	}
+
 	$('#image').css('background', 'url(' + image[i] + ') center no-repeat');
-	setTimeout(decay,3000);
+	setTimeout(decay,2500);
 }
 
 function decay() {
 	i = i - 1;
+
 	if (i <= 0) {
 		i = 0;
 	}
+
 	$('#image').css('background', 'url(' + image[i] + ') center no-repeat');
 }
