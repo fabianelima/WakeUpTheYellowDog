@@ -1,10 +1,12 @@
 /*--------------- Script --------------*/
 
 /*
-	A idéia é fazer um appzinho que funcione com clique do usuário e mude
-	a animação do cursor conforme o usuário vá clicando. Depois do primeiro
-	clique, a animação corre em um sentido, e só muda se o usuário continuar
-	clicando.
+	Consegui fazer o negóz ficar funcional do jeito que eu queria. Agora
+	tenho que deixar o appzinho bonitinho, aproveitar e treinar outras
+	habilidades, usar isso aqui pra brincar com animação frame a frame,
+	quem sabe mostrar na aula...
+
+	Dá pra fazer um negócio com mais frames. Essa versão atu7al tem doze.
 */
 
 var i = 0;
