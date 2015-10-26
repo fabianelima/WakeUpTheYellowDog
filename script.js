@@ -4,22 +4,15 @@
 	Consegui fazer o negóz ficar funcional do jeito que eu queria. Agora
 	tenho que deixar o appzinho bonitinho, aproveitar e treinar outras
 	habilidades, usar isso aqui pra brincar com animação frame a frame,
-	quem sabe mostrar na aula...
+	quem sabe mostrar na aula... Dá pra fazer um negócio com mais frames.
+	Essa versão atual tem doze.
 
-	Dá pra fazer um negócio com mais frames. Essa versão atu7al tem doze.
+	Não posso me esquecer da parte de contar os cliques depois. Mas isso
+	vou fazer depois que terminar as ilustrações.
 */
 
 var i = 0;
-var image = ['im1.gif','im2.gif','im3.gif','im4.gif','im5.gif','im6.gif','im7.gif','im8.gif','im9.gif','im10.gif','im11.gif','im12.gif'];
-
-/*
-	Vou tirar essa parte e fazer mais como se fosse uma animação interativa
-	de se clicarem cima. Em vez de clicar na imagem toda, tem que clicar na
-	div específica em que a imagem vai estar.
-
-$(document).mousemove(function(e){
-    $('#image').css({left:e.pageX, top:e.pageY});
-});*/
+var image = ['anima1.gif','anima2.gif','anima3.gif','anima4.gif','anima5.gif','anima6.gif','anima7.gif','anima8.gif','anima9.gif','anima10.gif','anima11.gif','anima12.gif'];
 
 function clique() {
 	i++;
