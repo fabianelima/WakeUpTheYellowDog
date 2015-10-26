@@ -14,9 +14,18 @@ $(document).mousemove(function(e){
     $('#image').css({left:e.pageX, top:e.pageY});
 });
 
-function clicou() {
+function clique() {
 	i++;
 	if (i > 11) {
+		i = 0;
+	}
+	$('#image').css('background', 'url(' + image[i] + ') center no-repeat');
+	setTimeout(decay,2000);
+}
+
+function decay() {
+	i = i - 1;
+	if (i <= 0) {
 		i = 0;
 	}
 	$('#image').css('background', 'url(' + image[i] + ') center no-repeat');
