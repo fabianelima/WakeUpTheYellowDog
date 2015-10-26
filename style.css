@@ -13,9 +13,11 @@
 	background: #867;
 }
 
-#image{
+#image {
 	width: 46px;
 	height: 46px;
 	position: absolute;
+	margin: 25% 0 0 50%;
 	background: url(im1.gif) center no-repeat;
+	cursor: pointer;
 }

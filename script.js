@@ -12,9 +12,14 @@
 var i = 0;
 var image = ['im1.gif','im2.gif','im3.gif','im4.gif','im5.gif','im6.gif','im7.gif','im8.gif','im9.gif','im10.gif','im11.gif','im12.gif'];
 
+/*
+	Vou tirar essa parte e fazer mais como se fosse uma animação interativa
+	de se clicarem cima. Em vez de clicar na imagem toda, tem que clicar na
+	div específica em que a imagem vai estar.
+
 $(document).mousemove(function(e){
     $('#image').css({left:e.pageX, top:e.pageY});
-});
+});*/
 
 function clique() {
 	i++;
